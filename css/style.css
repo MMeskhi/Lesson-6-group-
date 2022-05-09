@@ -50,13 +50,9 @@ header h2 {
 }
 
 .section-container {
-
     max-width: 1475px;
     width: 100%;
     margin: 0 auto;
-	  max-width: 1400px;
-	  width: 100%;
-	  margin: 0 auto;
 }
 
 .section-container-1 {
@@ -117,10 +113,4 @@ section p {
     text-decoration: none;
     color: #171717;
     font-weight: bold;
-}
-
-	  bottom: 20px;
-	  background-color: #FFFFFF;
-    height: 125px;
-    z-index: 1;
 }
