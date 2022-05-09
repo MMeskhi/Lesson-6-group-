@@ -13,6 +13,7 @@ header {
     height: 308px;
     width: 100%;
     padding: 50px;
+    margin-bottom: -100px;
 }
 
 .header-container {
@@ -49,19 +50,25 @@ header h2 {
 }
 
 .section-container {
-	max-width: 1400px;
-	width: 100%;
-	margin: 0 auto;
+
+    max-width: 1475px;
+    width: 100%;
+    margin: 0 auto;
+	  max-width: 1400px;
+	  width: 100%;
+	  margin: 0 auto;
 }
 
 .section-container-1 {
     display: inline-block;
     position: relative;
+    margin-right: 25px;
 }
 
 .section-container-2 {
     display: inline-block;
     position: relative;
+    margin-right: 25px;
 }
 
 .section-container-3 {
@@ -77,12 +84,43 @@ section img {
 section p {
     font-size: 18px;
     color: #171717;
+    font-weight: bold;
+    text-align: center;
+}
+
+#m {
+    color: #ffffff;
 }
 
 .absolute {
     position: absolute;
-	bottom: 20px;
-	background-color: #FFFFFF;
+    left: 10px;
+    bottom: 10px;
+    background-color: #FFFFFF 0% 0%;
+    border-radius: 12px;
+    height: 125px;
+    width: 443px;
+    backdrop-filter: blur(20px);
+}
+
+.section-others {
+    margin-top: 50px;
+    margin-left: 1300px;
+}
+
+.section-others span {
+    display: inline;
+}
+
+.section-others a {
+    display: inline;
+    text-decoration: none;
+    color: #171717;
+    font-weight: bold;
+}
+
+	  bottom: 20px;
+	  background-color: #FFFFFF;
     height: 125px;
     z-index: 1;
 }
