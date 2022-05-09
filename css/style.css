@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 * {
     padding: 0;
     margin: 0;
@@ -47,6 +45,7 @@ header h2 {
     border-radius: 50%;
     display: inline-block;
     margin: 5px;
+
 }
 
 .section-container {
@@ -87,4 +86,3 @@ section p {
     height: 125px;
     z-index: 1;
 }
->>>>>>> Stashed changes
